@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Host a resmue online
 
-You can use the [editor on GitHub](https://github.com/hyoungkyeu8359/online-resume/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Purpose
+The purpose of this README is to explain how to host a resume on GitHub Pages. Also, this will introduce and demo principles of Andrew Etter's book Modern Technical Writing.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Prerequisites: This should include a resume formatted in Markdown.
+i) Include a link to a good Markdown tutorial under “More Resources.” You do not need to explain
+how to use Markdown.
 
-### Markdown
+Instructions, including animated GIF
+i) Use headings and numbered lists
+ii) Remember to use each step to explain BOTH how to follow Etter’s protocol and how to host a
+resume in GitHub Pages or Codeberg Pages. It’s up to you whether you 1) begin with Etter’s
+general process and then demonstrate the process with a practical step involving your resume,
+or 2) begin with the practical steps for hosting a resume and relate each practical step to a
+concept in Etter’s book.
+iii) Add an animated GIF: Include a demo using an animated GIF in your README. The GIF should
+feature your own resume (showing your own name) in the GIF.
+iv) More Resources: include:
+(1) a Markdown tutorial
+(2) a link to Etter’s book
+(3) at least one other resource
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Authors and Acknowledgments: credit template authors and group members
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hyoungkyeu8359/online-resume/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+FAQs Add (and answer) two FAQs, as described below:
+(1) A question about the overall process, such as “Why is Markdown better than a word
+processor?”
+(2) A question about the practical details, such as “Why is my resume not showing up?”
+You may use the example FAQs, or come up with your own.
