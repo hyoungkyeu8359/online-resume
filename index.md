@@ -1,40 +1,46 @@
-# Host a resmue online
+# Kevin Kim
+_I am a Computer Science Student at the University of Manitoba. I prefer to work with Java, C++, and Python._
 
-## Purpose
-The purpose of this README is to explain how to host a resume on GitHub Pages. Also, this will introduce and demo principles of Andrew Etter's book Modern Technical Writing.
+---
 
-## Prerequisites
-- GitHub account
-- Your resume formatted in Markdown
+## Contact Information
+- Email: kimh3427@myumanitoba.ca
+- GitHub: https://github.com/hyoungkyeu8359
 
-Don't worry if you are new to Markdown. There are websites that provides tutorials on Markdown. Please refer under "More Resources" for the links.
+---
 
-## Instructions, including animated GIF
-i) Use headings and numbered lists
+## Technical Skills
+- Programming Languages: Java, C,/C++, Python, HTML, CSS, JavaScript
+- Operating Systems: Linux, CentOS, macOS, Windows 10
+- Databases: Oracle, MongoDB
+- Tools: jQuery, Docker, Telegraf, InfluxDB, Grafana, Jira
 
-ii) Remember to use each step to explain BOTH how to follow Etter’s protocol and how to host a
-resume in GitHub Pages or Codeberg Pages. It’s up to you whether you 
-1) begin with Etter’s
-general process and then demonstrate the process with a practical step involving your resume,
-2) begin with the practical steps for hosting a resume and relate each practical step to a
-concept in Etter’s book.
+---
 
-iii) Add an animated GIF: Include a demo using an animated GIF in your README. The GIF should
-feature your own resume (showing your own name) in the GIF.
+## Work Experience
+**Government of Canada – DBA Intern** _(Jan 2020 – Aug 2020)_
+- Created a web-based dashboard that automatically ingests more than 10 billion of data from Oracle databases and visualizes the summary and the status of available databases by Python, Docker, Telegraf, InfluxDB and Grafana
+- Handled importing and exporting more than 50TB of data from IBM Netezza database to Oracle database
+- Developed functions and scripts that generate alerts, critical information and weekly reports to ensure the performance of databases, using Python
 
-iv) More Resources: include:
-(1) a Markdown tutorial
-(2) a link to Etter’s book
-(3) at least one other resource
+**Asper MISA - Web Developer** _(July 2019 – Nov 2019)_
+- Collaborated in a team of 5 Computer Science students for a student group in Asper School of Business and implemented features as requested under strict deadlines
+- Programmed a responsive web design for Event and Contact page, compatible for PC and mobile devices, using HTML, CSS, JavaScript and jQuery
 
-## Authors and Acknowledgments: credit template authors and group members
+---
 
-## FAQs 
+## Projects
+**Pathfinding Algorithm Visualizer** _(Oct 2019 - Nov 2019)_
+- Created a web-application that visualizes the process of various pathfinding algorithms
+- Implemented the visualizations of Breadth-First Search, Depth First Search, Dijkstra and A* Search Algorithms, using HTML, CSS, JavaScript and jQuery
 
-**Why is Markdown better than a word processor?**
+**Hospital Blue Code Simulator** _(Sept 2019 – Oct 2019)_
+- Designed to examine the patients then assign an appropriate priority based on their severity, where a patient with higher priority are given treatments earlier than others
+- Implemented the simulator using Queue and Priority Queue data structures and applied concept Object-Oriented Programming, programmed in C++
 
-Answer:
+---
 
-**“Why is my resume not showing up?**
-
-Answer:
+## Education
+Bachelor of Science, Computer Science
+- University of Manitoba, GPA 3.62/4.50
+- Expected to graduate in May 2022
