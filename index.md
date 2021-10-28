@@ -18,7 +18,7 @@ _I am a Computer Science Student at the University of Manitoba. I prefer to work
 ---
 
 ## Work Experience
-**Government of Canada – DBA Intern** _(Jan 2020 – Aug 2020)_
+**Government of Canada – DBA Intern** _(Jan 2020 – Present)_
 - Created a web-based dashboard that automatically ingests more than 10 billion of data from Oracle databases and visualizes the summary and the status of available databases by Python, Docker, Telegraf, InfluxDB and Grafana
 - Handled importing and exporting more than 50TB of data from IBM Netezza database to Oracle database
 - Developed functions and scripts that generate alerts, critical information and weekly reports to ensure the performance of databases, using Python
