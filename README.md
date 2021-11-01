@@ -1,68 +1,115 @@
 # Host your resume in GitHub Pages
 
 ## Purpose
-The purpose of this README is to explain how to host a resume on GitHub Pages. Also, this will introduce and demo principles of Andrew Etter's book Modern Technical Writing.
+The purpose of this README is to explain how to host a resume on GitHub Pages. Also, this will introduce and demo principles of Andrew Etter's book _Modern Technical Writing_.
 
 ## Prerequisites
 - GitHub account
 - Your resume formatted in Markdown
-- A text edittor of your choice
+- Text edittor
 
 You will need to create a GitHub account to host your resume in GitHub Pages for free. Click [here](https://github.com/) to create an account.
 
-Also, you will need to convert your resume into Markdown format. Don't worry if you are new to Markdown. There are websites that provides tutorials for beginners. I strongly recommend you to visit this [website](https://www.markdowntutorial.com/) to get yourself familar to Markdown. Once you are done, refer to this [link](https://www.markdownguide.org/basic-syntax/) as a cheatsheet.
-
-You will need a text edittor to write your resume into Markdown format (and possibly preview it). I have listed the possible text edittors that you might use:
-- Atom
-- Notepads
-- Vim
-- Visual Studio Code (recommended)
-- XCode
-
-I recommend Visual Studio Code as you can install an extension tool to preview any Markdown-formatted file.
+Also, you will need to convert your resume into Markdown format. Don't worry if you are new to Markdown. There are websites that provides tutorials for beginners. I strongly recommend this [website](https://www.markdowntutorial.com/) to get yourself familar to Markdown.
 
 ## Instructions
-1. Create a new repository on GitHub
-2. Enable GitHub Pages
-3. Choose a theme for your resume
-4. Replace index.md with your resume
-5. Verify if your resume is successfully deployed
-6. More resources
 
-### Create a new repository on GitHub
+### 1. Create a new repository on GitHub
+
+- On the top right corner, click **+** sign and **New repository**
+
+![add_repo](./images/github_add_repo.PNG)
+
+- Name your repository as _online-resume_
+- Set it as **Public** (default)
+- Check **Add a README file**
+- Click **Crate repository**
+
+![create_repo](./images/github_create_repo.PNG)
+
+Your fresh repository for hosting resume should look like below.
+
+![fresh_repo](./images/github_fresh_repo.PNG)
+
+### 2. Choose a theme for your resume
+
+- Click **Settings** of your repository
+
+![pages_settings](./images/github_pages_settings.PNG)
+
+- Scroll down and click **Pages** on the left navigation list
+
+![pages_pages](./images/github_pages_pages.PNG)
+
+- Click **Choose a theme**
+
+![pages_none](./images/github_pages_none.PNG)
+
+- Pick **Slate theme** (you can use other themes as well)
+- Then, click **Select theme**
+
+![pages_slate](./images/github_pages_slate.PNG)
+
+- Click **Commit changes**
+
+![pages_slate_index](./images/github_pages_slate_index.PNG)
 
 
-### Enable GitHub Pages
+### 3. Enable GitHub Pages
+
+After the step 2, your repository will have a newly created a branch called **gh-pages** which contains **index.md** and **_config.yml** files. GitHub Pages should be enabled automatically as well.
+
+To see if your GitHub Pages is up:
+- Go to **Settings**
+- Select **Pages** section on the left navigation list. 
+- Click the link in the green box. 
+
+![your_URL](./images/github_pages_URL.PNG)
+
+The URL will look like the below format.
+
+```
+https://<github-username>.github.io/<repository-name>/
+```
+
+For my resume, the URL will be:
+```
+https://hyoungkyeu8359.github.io/online-resume/
+```
+
+### 4. Replace index.md with your resume
+
+At this point, your website should contain default content. You will replace the content in **index.md** with your resume.
 
 
-### Choose a theme for your resume
 
+### 5. Verify your resume
 
-### Replace index.md with your resume
+Once **index.md** is modified, visit your GitHub Pages to see if your resume looks fine. Your website should look similar to below animation.
 
+(Add GIF animation)
 
-### Verify if your resume is successfully deployed
+## More resources
 
-
-### More resources
-
-
-## Demo
+- Click [here](https://www.markdowntutorial.com/) for Markdown tutorial
+- Click [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) to purchase Andrew Etter's book _Modern Technical Writing: An Introduction To Software Documentation_ in Amazon
+- Click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) for detailed documentation of GitHub Pages
 
 
 ## Authors and Acknowledgments:
 
-Free URL and the jekyll-theme-slate provided by GitHub was very helpful for hosting my resume. Thanks to the members in Group 6 for peer editting my resume. Lastly, the book _'Modern Technical Writing'_, written by Andrew Etter was important...
+- GitHub Pages and the jekyll-theme-slate provided by GitHub was very helpful for hosting my resume. 
+- Thanks to Group 6 for reviewing my resume.
 
 ## FAQs 
 
-**Why is Markdown better than a word processor?**
+**Q: Why is my resume not showing up?**
 
-Answer: Markdown is better than a word processor because 
-
-**“Why is my resume not showing up?**
-
-Answer: There are a few possibilities:
+There are a few possibilities:
 - You entered a wrong URL address.
-- Your repository name is not set correctly or did not finish setting up GitHub Pages in **Settings - Pages**.
-- It takes a time (roughly a minute) to reflect any change you made in the repository. Keep refreshing!
+- It takes a time to reflect any change you made in the repository. Keep refreshing the page!
+- In the worst case, you might need to delete your repository and create a new one again.
+
+**Q: Can I modify '_config.yml'?**
+
+You may modify **_config.yml** as you wish, but please note that each theme have different configuration such that content in your **index.md** may not look optimized as you expected. You will need to verify your GitHub Pages to see if your resume looks fine.
