@@ -81,13 +81,30 @@ https://hyoungkyeu8359.github.io/online-resume/
 
 At this point, your website should contain default content. You will replace the content in **index.md** with your resume.
 
+- Click **index.md** in your repository
 
+![pages_index](./images/github_index.PNG)
+
+- Click **Edit this file** (a pencil symbol)
+
+![pages_index_edit](./images/github_index_edit.PNG)
+
+- Replace the file with your resume
+- Make sure to click **Preview** to see how your **index.md** will look like after change
+
+![pages_index_edit2](./images/github_index_edit2.PNG)
+
+- Click **Commit changes**
+
+![pages_slate_index](./images/github_pages_slate_index.PNG)
 
 ### 5. Verify your resume
 
-Once **index.md** is modified, visit your GitHub Pages to see if your resume looks fine. Your website should look similar to below animation.
+Once **index.md** is modified, visit your GitHub Pages to see if your resume looks fine. Your website should look similar to below animation (as long as you are sticking with slate theme).
 
-(Add GIF animation)
+![demo](./images/demo.gif)
+
+Enjoy you resume!
 
 ## More resources
 
