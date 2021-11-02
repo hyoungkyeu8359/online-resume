@@ -15,11 +15,12 @@ Also, you will need to convert your resume into Markdown format. Don't worry if 
 
 ### 1. Create a new repository on GitHub
 
-GitHub Pages allows use to host a resume as a static website for free (but only one per user). Andrew Etter recommend the read to make a static website because:
+GitHub Pages allows use to host a resume as a static website for free (but only one per account). Andrew Etter recommends to make a static website:
 
 > I love their speed, simplicity, portability, and security. You can host static websites practically anywhere, including Amazon S3 and GitHub Pages. They have no server-side application dependencies, no databases, and nothing to install, so migrating the entire site is as easy as moving a directory.
 
-
+In general, static websites are fast. It does not consume hardware resources because no content is generated dynamically. 
+When you need to make a change on your resume, simply edit and update it to your repository. Any update you make will be reflecetd in a blink of an eye. 
 
 Let's create a new repository for your resume.
 
@@ -134,7 +135,6 @@ Enjoy you resume!
 - Click [here](https://www.markdowntutorial.com/) for Markdown tutorial
 - Click [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) to purchase Andrew Etter's book _Modern Technical Writing: An Introduction To Software Documentation_ in Amazon
 - Click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) for detailed documentation of GitHub Pages
-
 
 ## Authors and Acknowledgments:
 
