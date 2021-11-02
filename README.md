@@ -135,12 +135,14 @@ Enjoy you resume!
 ## More resources
 
 - Click [here](https://www.markdowntutorial.com/) for Markdown tutorial
-- Click [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) to purchase Andrew Etter's book _Modern Technical Writing: An Introduction To Software Documentation_ in Amazon
+- Click [here](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) to purchase Andrew Etter's book _Modern Technical Writing_ in Amazon
 - Click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages) for detailed documentation of GitHub Pages
 
 ## Authors and Acknowledgments:
 
 GitHub Pages and the jekyll-theme-slate provided by GitHub was very helpful for hosting my resume.
+
+Andrew Etter's protocols introduced in his book _Modern Technical Writing_.
 
 Thanks to Group 6 for reviewing my resume:
 - Ryan Campbell - Peer reviewed this guide
