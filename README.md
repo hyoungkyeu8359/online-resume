@@ -138,8 +138,13 @@ Enjoy you resume!
 
 ## Authors and Acknowledgments:
 
-- GitHub Pages and the jekyll-theme-slate provided by GitHub was very helpful for hosting my resume. 
-- Thanks to Group 6 for reviewing my resume.
+GitHub Pages and the jekyll-theme-slate provided by GitHub was very helpful for hosting my resume.
+
+Thanks to Group 6 for reviewing my resume:
+- Ryan Campbell - Peer reviewed this guide
+- Joshua Moreira - Peer reviewed this guide
+- Ikram Khan Shipon - Peer reviewed this guide
+- Anton Sikorsky - Peer reviewed this guide
 
 ## FAQs 
 
