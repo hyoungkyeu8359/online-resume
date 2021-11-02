@@ -128,6 +128,8 @@ Once **index.md** is modified, visit your GitHub Pages to see if your resume loo
 
 ![demo](./images/demo.gif)
 
+You can visit my resume at https://hyoungkyeu8359.github.io/online-resume/
+
 Enjoy you resume!
 
 ## More resources
