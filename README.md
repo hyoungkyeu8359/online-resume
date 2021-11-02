@@ -5,16 +5,23 @@ The purpose of this README is to explain how to host a resume on GitHub Pages. A
 
 ## Prerequisites
 - GitHub account
-- Your resume formatted in Markdown
-- Text edittor
+- Resume formatted in Markdown
 
 You will need to create a GitHub account to host your resume in GitHub Pages for free. Click [here](https://github.com/) to create an account.
 
-Also, you will need to convert your resume into Markdown format. Don't worry if you are new to Markdown. There are websites that provides tutorials for beginners. I strongly recommend this [website](https://www.markdowntutorial.com/) to get yourself familar to Markdown.
+Also, you will need to convert your resume into Markdown format. Don't worry if you are new to Markdown. There are websites that provides tutorials for beginners. I strongly recommend this [website](https://www.markdowntutorial.com/) to get yourself familar to Markdown then write your resume in Markdown.
 
 ## Instructions
 
 ### 1. Create a new repository on GitHub
+
+GitHub Pages allows use to host a resume as a static website for free (but only one per user). Andrew Etter recommend the read to make a static website because:
+
+> I love their speed, simplicity, portability, and security. You can host static websites practically anywhere, including Amazon S3 and GitHub Pages. They have no server-side application dependencies, no databases, and nothing to install, so migrating the entire site is as easy as moving a directory.
+
+
+
+Let's create a new repository for your resume.
 
 - On the top right corner, click **+** sign and **New repository**
 
@@ -33,6 +40,14 @@ Your fresh repository for hosting resume should look like below.
 
 ### 2. Choose a theme for your resume
 
+You should try to make your resume look appealing and approachable because a boring-looking resume won't attract anyone from human resources team. Etter mentions in his book that:
+
+> Whichever tool you select, take the time to customize the theme. [...] This customization is your chance to differentiate your content from the thousands of ugly, disorganized sites of the world, so don't just use the default theme.
+
+Thankfully, you don't have to design the template of your resume by yourself. GitHub provides many built-in jekyll theme templates that look succint and professional. All you need to do is choose one of the jekyll themes that appeals you (and others). In case if you want to learn more about what jekyll is, click [here](https://jekyllrb.com/) to learn more about it.
+
+Let's choose a theme for your resume!
+
 - Click **Settings** of your repository
 
 ![pages_settings](./images/github_pages_settings.PNG)
@@ -45,7 +60,9 @@ Your fresh repository for hosting resume should look like below.
 
 ![pages_none](./images/github_pages_none.PNG)
 
-- Pick **Slate theme** (you can use other themes as well)
+For this tutorial, we will use **Slate theme**.
+
+- Click **Slate theme** (feel free to explore other themes, too)
 - Then, click **Select theme**
 
 ![pages_slate](./images/github_pages_slate.PNG)
@@ -78,6 +95,12 @@ https://hyoungkyeu8359.github.io/online-resume/
 ```
 
 ### 4. Replace index.md with your resume
+
+The reason why your resume should be written Markdown format is because of it's easier to write and host in online platform. Etter explains why Markdown:
+
+> Documentation should live online, and Word's abysmal HTML export is totally unsuitable for creating websites. [...] GitHub Flavoured Markdown is a popular and fine choice for simple web-based help systems.
+
+Most people would use Microsoft Word to write their resume ( distribute PDF of their resume). However, as Etter stated in his book, .docx version of a resume is meant to be consumed and discarded. Writting a Markdown-formatted resume is rather simple and easy for everyone. I used to write my resume with Microsoft Word, but I preferred Markdown more. Using Markdown feels much simple to write and makes it easily distributable.
 
 At this point, your website should contain default content. You will replace the content in **index.md** with your resume.
 
