@@ -126,7 +126,7 @@ At this point, your website should contain default content. You will replace the
 
 ![pages_slate_index](./images/github_pages_slate_index.PNG)
 
-### 5. Verify your resume
+## Verify your resume
 
 Once **index.md** is modified, visit your GitHub Pages to see if your resume looks fine. Your website should look similar to below animation (as long as you are sticking with slate theme).
 
