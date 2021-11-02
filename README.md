@@ -45,7 +45,9 @@ You should try to make your resume look appealing and approachable because a bor
 
 > Whichever tool you select, take the time to customize the theme. [...] This customization is your chance to differentiate your content from the thousands of ugly, disorganized sites of the world, so don't just use the default theme.
 
-Thankfully, you don't have to design the template of your resume by yourself. GitHub provides many built-in jekyll theme templates that look succint and professional. All you need to do is choose one of the jekyll themes that appeals you (and others). In case if you want to learn more about what jekyll is, click [here](https://jekyllrb.com/) to learn more about it.
+Thankfully, you don't have to design the template of your resume by yourself. GitHub provides many built-in jekyll theme templates that look succint and professional. All you need to do is choose one of the jekyll themes that looks appealing to you (and others).
+
+In case if you want to learn more about what jekyll is, click [here](https://jekyllrb.com/) to learn more about it.
 
 Let's choose a theme for your resume!
 
@@ -101,7 +103,9 @@ The reason why your resume should be written Markdown format is because of it's 
 
 > Documentation should live online, and Word's abysmal HTML export is totally unsuitable for creating websites. [...] GitHub Flavoured Markdown is a popular and fine choice for simple web-based help systems.
 
-Most people would use Microsoft Word to write their resume ( distribute PDF of their resume). However, as Etter stated in his book, .docx version of a resume is meant to be consumed and discarded. Writting a Markdown-formatted resume is rather simple and easy for everyone. I used to write my resume with Microsoft Word, but I preferred Markdown more. Using Markdown feels much simple to write and makes it easily distributable.
+Most people would use Microsoft Word to write their resume (and distribute PDF of their resume). However, as Etter stated in his book, .docx version of a resume is meant to be consumed and discarded. 
+
+Writting a Markdown-formatted resume is easier to maintain and distribute in online. If you need to make a change to your resume, simply edit it, update the change to the repository, and it will stay fresh. I used to write my resume with Microsoft Word but I preferred Markdown more nowadays. Using Markdown feels much simple to write and easily distributable in GitHub Pages.
 
 At this point, your website should contain default content. You will replace the content in **index.md** with your resume.
 
