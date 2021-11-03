@@ -166,10 +166,13 @@ Thanks to the members of Group 6 for reviewing my resume and README.md:
 **Q: Why is my resume not showing up?**
 
 There are a few possibilities:
+- Make sure your repository contains **index.md**
 - You entered a wrong URL address.
 - It takes a time to reflect any change you made in the repository. Keep refreshing the page!
 - In the worst case, you might need to delete your repository and create a new one again.
 
 **Q: Can I modify '_config.yml'?**
 
-You may modify **_config.yml** as you wish, but please note that each theme have different configuration such that content in your **index.md** may not look optimized as you expected. You will need to verify your GitHub Pages to see if your resume looks fine.
+Yes. You may modify **_config.yml** to try something fancy in your resume. To see what you can add in **Slate** theme, please refer to this [repository](https://github.com/pages-themes/slate).
+
+Please note that each theme have different configuration such that their **_config.yml** takes different variables. Make sure to check if your resume looks fine after modification.
