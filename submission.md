@@ -8,7 +8,7 @@ Purpose: Explain how to host a resume on GitHub Pages.
 Additional purpose: Introduce and demo principles of Andrew Etter’s book Modern Technical Writing
 Desired Reaction: Understand the importance of hosting resume online and the principles of Andrew Etter
 Vocabulary: Technical and easy
-Tone: Casual
+Tone: Casual and friendly
 
 -- What software stack is used --
 - Markdown
