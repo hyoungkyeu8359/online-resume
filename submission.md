@@ -1,7 +1,8 @@
--- Link to GitHub --
-https://github.com/hyoungkyeu8359/online-resume
+Link to GitHub repo: https://github.com/hyoungkyeu8359/online-resume
+Link to my resume: https://hyoungkyeu8359.github.io/online-resume/
 
--- Audience Analysis -- 
+-- Audience Analysis --
+
 Audience: CS Student
 Venue: README in GitHub Pages
 Purpose: Explain how to host a resume on GitHub Pages.
@@ -14,4 +15,4 @@ Tone: Casual and friendly
 - Markdown
 - Visual Studio Code
 - GitHub Pages
-- Jekyll theme
+- Jekyll theme (Slate theme)
