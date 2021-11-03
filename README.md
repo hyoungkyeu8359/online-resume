@@ -15,12 +15,12 @@ Also, you will need to convert your resume into Markdown format. Don't worry if 
 
 ### 1. Create a new repository on GitHub
 
-By creating a new repository on GitHub, you are now ready to use a distributed version control system (DVCS), Git. One of the Etter's protocol mentioned in his book is to use distributed version control to manage your remote repositories:
+By creating a new repository on GitHub, you are ready to use a distributed version control system (DVCS), Git. One of the Etter's protocol mentioned in his book is to use distributed version control to manage your remote repositories:
 
 > "The basics are that DVCS have better performance, allow for offline work, [...] Atlassian BitBucket and Stash are both excellent web-based interfaces for managing remote repositories. GitHub and GitHub enterprise are also great options."
 
-The good thing about using DVCS to manage your resume is you can do it in offline. If you need to download your resume to make a change, you can use Git to pull (download) it from the repository. 
-Once the resume is editted, you can push (upload) it to the repository again. Simple as that.
+The good thing about using DVCS to manage your resume is you can do it in offline. If you need to download your resume and make a change, you can use Git to pull (download) it from the repository. 
+Once the resume is editted, you can push (upload) it to the repository. Simple as that.
 
 Let's create a new repository for your resume.
 
@@ -41,11 +41,11 @@ Your fresh repository for hosting resume should look like below.
 
 ### 2. Choose a theme for your resume
 
-You should try to make your resume look appealing and approachable because a boring-looking resume won't attract anyone from human resources team. Etter mentions in his book that:
+You should try to make your resume look appealing and approachable. Etter mentions in his book that:
 
 > "Whichever tool you select, take the time to customize the theme. [...] This customization is your chance to differentiate your content from the thousands of ugly, disorganized sites of the world, so don't just use the default theme."
 
-Thankfully, you don't have to design the template of your resume by yourself. GitHub provides many built-in jekyll theme templates that look succint and professional. All you need to do is choose one of the jekyll themes that looks appealing to you (and others).
+Obviously, an uninteresting-looking resume won't attract anyone. Thankfully, you don't have to design the template of your resume by yourself. GitHub provides many built-in jekyll theme templates that look succint and professional. All you need to do is choose one of the jekyll themes that looks appealing to you (and others).
 
 In case if you want to learn more about what jekyll is, click [here](https://jekyllrb.com/) to learn more about it.
 
@@ -74,15 +74,14 @@ For this tutorial, we will use **Slate theme**.
 
 ![pages_slate_index](./images/github_pages_slate_index.PNG)
 
-
 ### 3. Enable GitHub Pages
 
 GitHub Pages allows use to host a resume as a static website for free (but only one per account). Andrew Etter recommends to make a static website:
 
 > "I love their speed, simplicity, portability, and security. You can host static websites practically anywhere, including Amazon S3 and GitHub Pages. They have no server-side application dependencies, no databases, and nothing to install, so migrating the entire site is as easy as moving a directory."
 
-In general, static websites are fast. It does not consume hardware resources because no content is generated dynamically. 
-When you need to make a change on your resume, simply edit and upload it to your repository. Any update you make will be reflecetd in a few seconds (or minute, in the worst case). 
+Static websites are fast. Like Etter stated, they do not consume hardware resources because no content is generated dynamically. 
+By using GitHub Pages, you will be able see any change immediately on your resume (or **index.md**). It will be reflecetd in a few seconds (or minute, in the worst case). 
 
 After the step 2, your repository will have a newly created a branch called **gh-pages** which contains **index.md** and **_config.yml** files. GitHub Pages should be enabled automatically as well.
 
@@ -106,13 +105,13 @@ https://hyoungkyeu8359.github.io/online-resume/
 
 ### 4. Replace index.md with your resume
 
-The reason why your resume should be written Markdown format is because of it's easier to write and host in online platform. Etter explains why Markdown:
+The reason why your resume should be written in Markdown format is because of it's easier to write and host in online platform. Etter explains why you should use Markdown:
 
 > "Documentation should live online, and Word's abysmal HTML export is totally unsuitable for creating websites. [...] GitHub Flavoured Markdown is a popular and fine choice for simple web-based help systems."
 
 Most people would use Microsoft Word to write their resume (and distribute PDF of their resume). However, as Etter stated in his book, .docx version of a resume is meant to be consumed and discarded. 
 
-Writting a Markdown-formatted resume is easier to maintain and distribute in online. If you need to make a change to your resume, simply edit it, update the change to the repository, and it will stay fresh. I used to write my resume with Microsoft Word but I preferred Markdown more nowadays. Using Markdown feels much simple to write and easily distributable in GitHub Pages.
+Writting a Markdown-formatted resume is easier to maintain and distribute in online. If you need to make a change to your resume, edit it, update the change to the repository, and it will stay fresh as new. Using Markdown is much simpler to write and easily distributable in GitHub Pages.
 
 At this point, your website should contain default content. You will replace the content in **index.md** with your resume.
 
@@ -135,7 +134,7 @@ At this point, your website should contain default content. You will replace the
 
 ## Verify your resume
 
-Once **index.md** is modified, visit your GitHub Pages to see if your resume looks fine. Your website should look similar to below animation (as long as you are sticking with slate theme).
+Once **index.md** is modified, visit your GitHub Pages to see if your resume looks fine. Your website should look similar to below animation (as long as you are sticking with the **Slate theme**).
 
 ![demo](./images/demo.gif)
 
